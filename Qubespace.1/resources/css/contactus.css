@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: transparent;
+}
+.subBanner{
+    height: 72vh;
+   background-image: url(../images/contact-us-page1.jpg);
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.subBannerOverlay {
+    position: relative;
+}
+.subBannerOverlay .container{
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+.subBannerOverlay .container h1{
+    color: #fff;
+}
+.contact-us {
+    margin-top: 47px;
+    margin-bottom: 100px;
+}
+.contact-us-form button {
+    border: 2px solid #ef7f1a;
+    background-color: #ff5722;
+}
+.contact-us-form button:hover{
+  background-color: #fff; 
+  color: #000;
+  transition: 0.7s;
+  border: 2px solid #ff5722;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #2196f3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #2196f3;
+    border: 1px;
+    border-radius: 0px;
+}
+/* .contact-us textarea:focus{
+outline: none;
+box-shadow: unset;
+border-color: #262626;
+}  */
+.contact-us-map .phone-Text p{
+    margin-bottom: 7px;
+}
+.contact-us-map .emailText p{
+    margin-bottom: 7px;
+}
+.contact-us-map .map-content{
+    margin-top: 25px;
+}
+.contact-us-map .map-content i {
+    color: #ef7f1a;
+    padding-right: 8px;
+}
+.contact-us-map .map-content span{
+    font-weight: bold;
+}
+.contact-us-form p{
+    margin-bottom: 32px;;
+}
+
+
+
+
+
+
+
+/*footer section start*/
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    background-color:#001d4c;
+    padding: 40px;
+    padding-bottom: 0;
+   }
+   
+   .footer .container-fluid{
+    padding-left: 0;
+    padding-right: 0px;
+    text-align: start;
+   }
+   
+   .footer .aboutus p{
+       line-height: 31px;
+   }
+   .footer h5 {
+   color: #FFFFFF;
+   font-family: 'inter',sans-serif;
+   font-size: 23px;
+   font-weight:600;
+   margin-bottom: 15px;
+   }
+   
+   .footer  ul{
+   padding: 0;
+   }
+   
+   .footer  li{
+   list-style: none;
+   margin-bottom: 15px;
+   }
+   
+   .footer .services-links a{
+    text-decoration: none;
+    position: relative;
+   
+   }
+   .footer .services-links a::before{
+   content: "";
+   width: 0;
+   position: absolute;
+   height: 2px;
+   background-color: #fff;
+   bottom: -7px;
+    }
+   .footer .services-links a:hover::before{
+   width: 100%;
+   transition: 0.5s;
+    }
+   
+   .footer  a{
+   color: #fff;
+   }
+   
+   .footer .container{
+   margin-top: 18px;
+   font-family: 'roboto';
+   }
+   
+   .footer .fas:hover{
+    transform:rotate(180deg);
+   }
+   
+   .footer .social-media-icons {
+    padding: 0;
+    display: flex;
+    margin-top: 25px;
+    margin-left: -14px;
+}
+   .social-media-menu{
+       list-style: none;
+   }
+   
+   .social-media-menu a {
+    position: relative;
+    width: 67%;
+    height: 43px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 30%);
+    background: linear-gradient( 0deg,#ddd,#fff);
+    transition: .5s;
+}
+   .social-media-menu a i {
+       width: 100%;
+       height: 100%;
+       display: block;
+       background: linear-gradient( 0deg,#fff,#ddd);
+       border-radius: 50%;
+       font-size: 24px;
+       color: #262626;
+       transition: .5s;
+       padding-top: 12px;
+   }
+   footer .fa-facebook-f:before {
+    content: "\f39e";
+    position: relative;
+    top: -6px;
+}
+footer .fa-google-plus-g:before{
+    position: relative;
+    top: -7px;
+    left: 3px;
+}
+footer .fa-twitter:before{
+    position: relative;
+    top: -7px;
+}
+footer .copyright {
+font-size: 16px;
+padding-top: 8px;
+border-top: 1px solid #fff;
+}
+   
+   footer .copyright {
+   font-size: 16px;
+   padding-top: 8px;
+   border-top: 1px solid #fff;
+   }
+   /*footer section end*/
